@@ -1,0 +1,11 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.text-red {
+  color: red !important;
+}
+.text-olive {
+  color: #73895D !important;
+}
