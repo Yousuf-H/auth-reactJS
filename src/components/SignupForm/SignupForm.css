@@ -2,7 +2,14 @@
   display: flex;
   flex-direction: column;
   position: relative;
-  margin-bottom: 1.25rem;
+  margin-bottom: 0.75rem;
+}
+.signup-react-form > .form-input label {
+  font-weight: bold;
+}
+.signup-react-form > .form-input p {
+  margin: 0rem;
+  font-size: 0.75rem;
 }
 .signup-react-form > button {
   width: 100%;
@@ -18,9 +25,9 @@
   outline: none;
 }
 .signup-react-form > button:hover,
-.signup-react-form > button:focus-visible{
-cursor: pointer;
-background-color: #73895dde;
+.signup-react-form > button:focus-visible {
+  cursor: pointer;
+  background-color: #73895dde;
 }
 .signup-react-form > .form-input label {
   color: #464646;
@@ -28,7 +35,7 @@ background-color: #73895dde;
 }
 .signup-react-form > .form-input svg {
   position: absolute;
-  top: 2.3rem;
+  top: 3rem;
   left: 0.45rem;
   height: 1.25rem;
 }
@@ -37,4 +44,53 @@ background-color: #73895dde;
   border-radius: 0.6rem;
   padding: 0.75rem;
   padding-left: 2rem;
+}
+
+@media screen and (max-width: 1200px) {
+  .signup-react-form > .form-input {
+    margin-bottom: 0.5rem;
+  }
+  .signup-react-form > .form-input label {
+    font-size: .85rem;
+  }
+  .signup-react-form > .form-input input {
+    height: 2.5rem;
+    font-size: 0.85rem;
+  }
+  .signup-react-form > .form-input p {
+    font-size: 0.65rem;
+  }
+  .signup-react-form > .form-input svg {
+    top: 2.5rem;
+    transform: scale(0.95);
+  }
+  .signup-react-form > button {
+    padding: 0.5rem;
+    font-size: 0.85rem;
+    border-radius: 0.6rem;
+  }
+}
+@media screen and (max-width: 920px) {
+  .signup-react-form > .form-input {
+    margin-bottom: 0.25rem;
+  }
+  .signup-react-form > .form-input label {
+    font-size: .75rem;
+  }
+  .signup-react-form > .form-input input {
+    height: 2rem;
+    font-size: 0.75rem;
+  }
+  .signup-react-form > .form-input p {
+    font-size: 0.5rem;
+  }
+  .signup-react-form > .form-input svg {
+    top: 2rem;
+    transform: scale(0.75);
+  }
+  .signup-react-form > button {
+    padding: 0.5rem;
+    font-size: 0.85rem;
+    border-radius: 0.6rem;
+  }
 }
