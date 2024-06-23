@@ -4,4 +4,4 @@ The React JS Signup Template is a user-friendly, responsive, and highly customiz
 
 ## Deployment
 
-You can access the [Live Demo](https://github.com/AhmedMaherElSaeidi/Signup-template1-reactJS).
+You can access the [Live Demo](https://pharaoooh.github.io/projects-list/signup-template-1/).
